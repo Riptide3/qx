@@ -6,10 +6,10 @@ Fitdays · AFU-WL-TZ 系列解锁
 2. device/bind: 把 name 从 AFU-WL-TZ-A1 换成服务器认识的 FG2313UWB-D
 
 [rewrite_local]
-^https:\/\/online-us\.fitdays\.cn\/api\/device\/getConfigs url script-response-body https://raw.githubusercontent.com/Riptide3/qx/refs/heads/main/unblock-fitdays.js
-^https:\/\/online\.fitdays\.cn\/api\/device\/getConfigs url script-response-body https://raw.githubusercontent.com/Riptide3/qx/refs/heads/main/unblock-fitdays.js
-^https:\/\/online-us\.fitdays\.cn\/api\/device\/bind url script-request-body https://raw.githubusercontent.com/Riptide3/qx/refs/heads/main/unblock-fitdays.js
-^https:\/\/online\.fitdays\.cn\/api\/device\/bind url script-request-body https://raw.githubusercontent.com/Riptide3/qx/refs/heads/main/unblock-fitdays.js
+^https:\/\/online-us\.fitdays\.cn\/api\/device\/getConfigs url script-response-body https://raw.githubusercontent.com/Riptide3/qx/main/unblock-fitdays.js
+^https:\/\/online\.fitdays\.cn\/api\/device\/getConfigs url script-response-body https://raw.githubusercontent.com/Riptide3/qx/main/unblock-fitdays.js
+^https:\/\/online-us\.fitdays\.cn\/api\/device\/bind url script-request-body https://raw.githubusercontent.com/Riptide3/qx/main/unblock-fitdays.js
+^https:\/\/online\.fitdays\.cn\/api\/device\/bind url script-request-body https://raw.githubusercontent.com/Riptide3/qx/main/unblock-fitdays.js
 
 [mitm]
 hostname = online-us.fitdays.cn, online.fitdays.cn
